@@ -34,6 +34,26 @@ function Home() {
         leftBtnText="Custom order"
         rightBtnText="Existing inventory"
       />
+      <Section
+        title="Lowest Cost Solar Panel in America"
+        description="Money-back guarantee"
+        backgroudImg="solar-panel.jpg"
+        leftBtnText="Order now"
+        rightBtnText="Learn more"
+      />
+      <Section
+        title="Solar for New Roofs"
+        description="Solar Roof Cost Less Than a New Roof Plus Solar Panel"
+        backgroudImg="solar-roof.jpg"
+        leftBtnText="Order now"
+        rightBtnText="Learn more"
+      />
+      <Section
+        title="Accessories"
+        description="Solar Roof Cost Less Than a New Roof Plus Solar Panel"
+        backgroudImg="accessories.jpg"
+        leftBtnText="Shop now"
+      />
     </Container>
   );
 }

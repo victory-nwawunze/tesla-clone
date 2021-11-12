@@ -6,10 +6,34 @@ import Section from "./Section";
 function Home() {
   return (
     <Container>
-      <Section />
-      <Section />
-      <Section />
-      <Section />
+      <Section
+        title="Model S"
+        description="Order Online for Touchless Delivery"
+        backgroudImg="model-s.jpg"
+        leftBtnText="Custom order"
+        rightBtnText="Existing inventory"
+      />
+      <Section
+        title="Model Y"
+        description="Order Online for Touchless Delivery"
+        backgroudImg="model-y.jpg"
+        leftBtnText="Custom order"
+        rightBtnText="Existing inventory"
+      />
+      <Section
+        title="Model 3"
+        description="Order Online for Touchless Delivery"
+        backgroudImg="model-3.jpg"
+        leftBtnText="Custom order"
+        rightBtnText="Existing inventory"
+      />
+      <Section
+        title="Model X"
+        description="Order Online for Touchless Delivery"
+        backgroudImg="model-x.jpg"
+        leftBtnText="Custom order"
+        rightBtnText="Existing inventory"
+      />
     </Container>
   );
 }
